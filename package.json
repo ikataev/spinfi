@@ -1,0 +1,32 @@
+{
+  "name": "spinfi",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@near-wallet-selector/core": "^7.1.0",
+    "@near-wallet-selector/modal-ui": "^7.1.0",
+    "@near-wallet-selector/my-near-wallet": "^7.1.0",
+    "@near-wallet-selector/near-wallet": "^7.1.0",
+    "@reduxjs/toolkit": "^1.9.0",
+    "buffer": "^6.0.3",
+    "near-api-js": "^0.44.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@redux-devtools/core": "^3.13.1",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0"
+  }
+}
