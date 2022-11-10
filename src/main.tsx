@@ -7,8 +7,6 @@ import {store} from './store/store'
 import '@near-wallet-selector/modal-ui/styles.css'
 import {NearAPIContextProvider} from './near/NearAPIContext'
 
-
-// @ts-ignore
 window['Buffer'] = window['Buffer'] || Buffer
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
